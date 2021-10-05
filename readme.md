@@ -20,14 +20,14 @@ This steps will boostrap your presentation using this template.
 ## Pull changes
 Setup `upstream` to whatever name you want
 ```bash
-git remote add upstream https://github.com/ivoputzer/md-slides-template.git
+git remote add upstream https://github.com/mrvkino/md-slides-template.git
 ```
 
 Merge changes from `upstream` into your own repository
 ```bash
 git fetch --all
 git checkout upstream/master .github/workflows/md-slides.yml
-git commit -m "Merges upstream changes from ivoputzer/md-slides-template"
+git commit -m "Merges upstream changes from mrvkino/md-slides-template"
 ```
 
 ## Customize
@@ -38,12 +38,12 @@ git commit -m "Merges upstream changes from ivoputzer/md-slides-template"
 
 Eventually consider submitting a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#about-pull-requests) to improve this project 😉 It'd be very much appreciated!
 
-[gh_actions_badge]: https://img.shields.io/github/workflow/status/ivoputzer/md-slides-template/markdown%20slides/master?style=for-the-badge&logo=github
-[gh_issues_badge]: https://img.shields.io/github/issues/ivoputzer/md-slides-template?style=for-the-badge&logo=github
+[gh_actions_badge]: https://img.shields.io/github/workflow/status/mrvkino/md-slides-template/markdown%20slides/master?style=for-the-badge&logo=github
+[gh_issues_badge]: https://img.shields.io/github/issues/mrvkino/md-slides-template?style=for-the-badge&logo=github
 [gh_pages_badge]: https://img.shields.io/static/v1?style=for-the-badge&label=page&message=online&color=success&logo=github
-[gh_releases_badge]: https://img.shields.io/github/v/release/ivoputzer/md-slides-template?style=for-the-badge&logo=github
-[page_url]: https://ivoputzer.github.io/md-slides-template
-[releases_url]: https://github.com/ivoputzer/md-slides-template/releases
-[deployments_url]: https://github.com/ivoputzer/md-slides-template/deployments
+[gh_releases_badge]: https://img.shields.io/github/v/release/mrvkino/md-slides-template?style=for-the-badge&logo=github
+[page_url]: https://mrvkino.github.io/md-slides-template
+[releases_url]: https://github.com/mrvkino/md-slides-template/releases
+[deployments_url]: https://github.com/mrvkino/md-slides-template/deployments
 [marp_url]: https://marp.app
 [gitpitch_url]: https://gitpitch.com/docs/getting-started/pitchme
